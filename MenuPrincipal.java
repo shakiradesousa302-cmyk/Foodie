@@ -2,6 +2,7 @@ package foodie;
 
 import java.util.Scanner;
 public class MenuPrincipal {
+	// este es el codigo del menu, el que permite acceder a todo el juego
 	  public static final String RESET     = "\u001B[0m";
 	    public static final String NEGRITA   = "\u001B[1m";
 	    public static final String ROJO      = "\u001B[31m";

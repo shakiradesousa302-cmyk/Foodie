@@ -1,6 +1,8 @@
 package foodie;
 public class Musica {
     public static void Musica() {
+    	
+    	//aqui esta el sonido del juego, es el codigo de la musica, sonara al ejecutarse
         try {
             javax.sound.midi.Sequencer sequencer = 
                 javax.sound.midi.MidiSystem.getSequencer();
