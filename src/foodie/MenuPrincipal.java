@@ -1,4 +1,5 @@
 package foodie;
+
 import java.util.Scanner;
 public class MenuPrincipal {
 	  public static final String RESET     = "\u001B[0m";
@@ -111,8 +112,8 @@ public class MenuPrincipal {
 	        esperar(400);
 
 	        System.out.println();
-	        System.out.println(AMARILLO_F + NEGRITA + "        🍔  El Restaurante mas EPICO  🍣" + RESET);
-	        System.out.println(MORADO_F   + NEGRITA + "        🍕  ¡Atiende a tus clientes!  🍹" + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "         El Restaurante mas EPICO  " + RESET);
+	        System.out.println(MORADO_F   + NEGRITA + "         ¡Atiende a tus clientes!  " + RESET);
 	        System.out.println();
 
 	        System.out.print(VERDE_F + "  Cargando ");
@@ -136,31 +137,31 @@ public class MenuPrincipal {
 	            System.out.println();
 	            System.out.println(CYAN_F + NEGRITA + "  ╔══════════════════════════════════════════╗" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║  " + AMARILLO_F + NEGRITA + " ███████╗ ██████╗  ██████╗ ██████╗ ██╗███████╗" + CYAN_F + NEGRITA + " ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║  " + AMARILLO_F + NEGRITA + " ██╔════╝██╔═══██╗██╔═══██╗██╔══██╗██║██╔════╝" + CYAN_F + NEGRITA + " ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║  " + ROJO_F     + NEGRITA + " █████╗  ██║   ██║██║   ██║██║  ██║██║█████╗  " + CYAN_F + NEGRITA + " ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║  " + ROJO_F     + NEGRITA + " ██╔══╝  ██║   ██║██║   ██║██║  ██║██║██╔══╝  " + CYAN_F + NEGRITA + " ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║  " + MORADO_F   + NEGRITA + " ██║     ╚██████╔╝╚██████╔╝██████╔╝██║███████╗" + CYAN_F + NEGRITA + " ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║  " + MORADO_F   + NEGRITA + " ╚═╝      ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚══════╝" + CYAN_F + NEGRITA + "║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║  " + AMARILLO_F + NEGRITA + " ███████╗ ██████╗  ██████╗ ██████╗ ██╗███████╗" );
+	            System.out.println(CYAN_F + NEGRITA + "  ║  " + AMARILLO_F + NEGRITA + " ██╔════╝██╔═══██╗██╔═══██╗██╔══██╗██║██╔════╝" );
+	            System.out.println(CYAN_F + NEGRITA + "  ║  " + ROJO_F     + NEGRITA + " █████╗  ██║   ██║██║   ██║██║  ██║██║█████╗  " );
+	            System.out.println(CYAN_F + NEGRITA + "  ║  " + ROJO_F     + NEGRITA + " ██╔══╝  ██║   ██║██║   ██║██║  ██║██║██╔══╝  " );
+	            System.out.println(CYAN_F + NEGRITA + "  ║  " + MORADO_F   + NEGRITA + " ██║     ╚██████╔╝╚██████╔╝██████╔╝██║███████╗" );
+	            System.out.println(CYAN_F + NEGRITA + "  ║  " + MORADO_F   + NEGRITA + " ╚═╝      ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚══════╝" );
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ╠══════════════════════════════════════════╣" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║   " + VERDE_F   + NEGRITA + "🎮   1.   J U G A R                    " + CYAN_F + NEGRITA + "║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║   " + VERDE_F   + NEGRITA + "     1.   J U G A R                    " + CYAN_F + NEGRITA + "║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║   " + AMARILLO_F+ NEGRITA + "📋   2.   V E R   M E N U              " + CYAN_F + NEGRITA + "║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║   " + AMARILLO_F+ NEGRITA + "     2.   V E R   M E N U              " + CYAN_F + NEGRITA + "║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║   " + AZUL_F    + NEGRITA + "⚙️    3.   A D M I N I S T R A C I O N " + CYAN_F + NEGRITA + "║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║   " + AZUL_F    + NEGRITA + "     3.   A D M I N I S T R A C I O N " + CYAN_F + NEGRITA + " ║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║   " + MORADO_F  + NEGRITA + "🏆   4.   P U N T U A C I O N E S      " + CYAN_F + NEGRITA + "║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║   " + MORADO_F  + NEGRITA + "     4.   P U N T U A C I O N E S      " + CYAN_F + NEGRITA + "║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║   " + ROJO_F    + NEGRITA + " $   5.   M U S I C A                    " + CYAN_F + NEGRITA + "║" + RESET);
-	            System.out.println(CYAN_F + NEGRITA + "  ║   " + ROJO_F    + NEGRITA + "🚪   6.   S A L I R                    " + CYAN_F + NEGRITA + "║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║   " + ROJO_F    + NEGRITA + "     5.   M U S I C A                  " + CYAN_F + NEGRITA +"║" + RESET);
+	            System.out.println(CYAN_F + NEGRITA + "  ║   " + ROJO_F    + NEGRITA + "     6.   S A L I R                    " + CYAN_F + NEGRITA + "║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ║                                          ║" + RESET);
 	            System.out.println(CYAN_F + NEGRITA + "  ╚══════════════════════════════════════════╝" + RESET);
 	            System.out.println();
-	            System.out.println(AMARILLO_F + NEGRITA + "  🍔  🍕  🍣  🍹  🍔  🍕  🍣  🍹  🍔  🍕" + RESET);
+	            System.out.println(AMARILLO_F + NEGRITA + " creadores alexis,tati,melvin" + RESET);
 	            System.out.println();
-	            System.out.print(CYAN_F + NEGRITA + "  👉 Elige una opcion: " + RESET);
+	            System.out.print(CYAN_F + NEGRITA + "   Elige una opcion: " + RESET);
 
 	            try { opcion = Integer.parseInt(scanner.nextLine().trim()); }
 	            catch (Exception e) { opcion = 0; }
@@ -183,24 +184,24 @@ public class MenuPrincipal {
 	        limpiarPantalla();
 	        System.out.println();
 	        System.out.println(CYAN_F + NEGRITA + "  ╔══════════════════════════════════════════╗" + RESET);
-	        System.out.println(CYAN_F + NEGRITA + "  ║       🍽️   MENU DE FOODIE   🍽️            ║" + RESET);
+	        System.out.println(CYAN_F + NEGRITA + "  ║             MENU DE FOODIE               ║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ╠══════════════════════════════════════════╣" + RESET);
-	        System.out.println(CYAN_F + NEGRITA + "  ║  " + AMARILLO_F + "🍔  HAMBURGUESAS                        " + CYAN_F + "║" + RESET);
+	        System.out.println(CYAN_F + NEGRITA + "  ║  " + AMARILLO_F + "    HAMBURGUESAS                        " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Classic Burger ............. $5.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Double Burger .............. $7.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    BBQ Burger ................. $8.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ╠══════════════════════════════════════════╣" + RESET);
-	        System.out.println(CYAN_F + NEGRITA + "  ║  " + ROJO_F     + "🍕  PIZZAS                              " + CYAN_F + "║" + RESET);
+	        System.out.println(CYAN_F + NEGRITA + "  ║  " + ROJO_F     + "    PIZZAS                              " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Pizza Margarita ............ $6.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Pizza Pepperoni ............ $8.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Pizza Hawaiana ............. $7.50  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ╠══════════════════════════════════════════╣" + RESET);
-	        System.out.println(CYAN_F + NEGRITA + "  ║  " + VERDE_F    + "🍣  SUSHI                               " + CYAN_F + "║" + RESET);
+	        System.out.println(CYAN_F + NEGRITA + "  ║  " + VERDE_F    + "    SUSHI                               " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Sushi Salmon ............... $9.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Sushi Atun ................. $9.50  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Sushi Mixto ............... $11.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ╠══════════════════════════════════════════╣" + RESET);
-	        System.out.println(CYAN_F + NEGRITA + "  ║  " + AZUL_F     + "🍹  BEBIDAS                             " + CYAN_F + "║" + RESET);
+	        System.out.println(CYAN_F + NEGRITA + "  ║  " + AZUL_F     + "    BEBIDAS                             " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Refresco ................... $2.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Jugo Natural ............... $3.00  " + CYAN_F + "║" + RESET);
 	        System.out.println(CYAN_F + NEGRITA + "  ║  " + BLANCO     + "    Agua ....................... $1.00  " + CYAN_F + "║" + RESET);
@@ -214,13 +215,13 @@ public class MenuPrincipal {
 	        limpiarPantalla();
 	        System.out.println();
 	        System.out.println(AMARILLO_F + NEGRITA + "  ╔══════════════════════════════════════════╗" + RESET);
-	        System.out.println(AMARILLO_F + NEGRITA + "  ║         🏆  MEJORES SCORES  🏆            ║" + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "  ║             MEJORES SCORES               ║" + RESET);
 	        System.out.println(AMARILLO_F + NEGRITA + "  ╠══════════════════════════════════════════╣" + RESET);
-	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + VERDE_F + "🥇  Nivel 3 completado - 300 pts       " + AMARILLO_F + "║" + RESET);
-	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + CYAN_F  + "🥈  Nivel 2 completado - 200 pts       " + AMARILLO_F + "║" + RESET);
-	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + ROJO_F  + "🥉  Nivel 1 completado - 100 pts       " + AMARILLO_F + "║" + RESET);
-	        System.out.println(AMARILLO_F + NEGRITA + "  ║                                          ║" + RESET);
-	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + BLANCO  + "  ¡Juega para superar records!         " + AMARILLO_F + "║" + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + VERDE_F + "    Nivel 3 completado - 300 pts       " + AMARILLO_F +     " ║  " + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + CYAN_F  + "    Nivel 2 completado - 200 pts       " + AMARILLO_F +     " ║" + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + ROJO_F  + "    Nivel 1 completado - 100 pts       " + AMARILLO_F +     " ║ " + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "  ║                                                        "+ AMARILLO_F+       " ║"  + RESET);
+	        System.out.println(AMARILLO_F + NEGRITA + "  ║  " + BLANCO  + "   ¡Juega para superar records!         " + AMARILLO_F +    "║" + RESET);
 	        System.out.println(AMARILLO_F + NEGRITA + "  ╚══════════════════════════════════════════╝" + RESET);
 	        System.out.println();
 	        System.out.print(AMARILLO_F + "  Presiona Enter para volver..." + RESET);
@@ -232,9 +233,9 @@ public class MenuPrincipal {
 	        System.out.println();
 	        System.out.println(ROJO_F + NEGRITA + "  ╔══════════════════════════════════════════╗" + RESET);
 	        System.out.println(ROJO_F + NEGRITA + "  ║                                          ║" + RESET);
-	        System.out.println(ROJO_F + NEGRITA + "  ║   👋  ¡Gracias por jugar FOODIE!  👋     ║" + RESET);
+	        System.out.println(ROJO_F + NEGRITA + "  ║       ¡Gracias por jugar FOODIE!         ║" + RESET);
 	        System.out.println(ROJO_F + NEGRITA + "  ║                                          ║" + RESET);
-	        System.out.println(ROJO_F + NEGRITA + "  ║   🍔  ¡Vuelve pronto, chef!  🍔          ║" + RESET);
+	        System.out.println(ROJO_F + NEGRITA + "  ║         ¡Vuelve pronto, chef!            ║" + RESET);
 	        System.out.println(ROJO_F + NEGRITA + "  ║                                          ║" + RESET);
 	        System.out.println(ROJO_F + NEGRITA + "  ╚══════════════════════════════════════════╝" + RESET);
 	        musicaDerrota();

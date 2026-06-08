@@ -19,12 +19,8 @@ public class Pedidos {
 	        "Refresco", "Jugo Natural", "Agua"
 	    };
 
-	    String[] emojis = {
-	        "🍔", "🍔", "🍔",
-	        "🍕", "🍕", "🍕",
-	        "🍣", "🍣", "🍣",
-	        "🍹", "🍹", "💧"
-	    };
+	   
+	    
 
 	    double[] precios = {
 	        5.00, 7.00, 8.00,
@@ -52,7 +48,7 @@ public class Pedidos {
 	    };
 
 	    String[] estadosCliente = {
-	        "😊 Feliz", "😐 Normal", "😤 Apurado", "🤩 Emocionado", "😴 Cansado"
+	        "  Feliz", "  Normal", "  Apurado", "  Emocionado", "  Cansado"
 	    };
 
 	    // ══════════════════════════════════════
@@ -95,17 +91,17 @@ public class Pedidos {
 	        MenuPrincipal.limpiarPantalla();
 	        System.out.println();
 	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║       📖  COMO JUGAR  📖                  ║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║            COMO JUGAR                    ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ╠══════════════════════════════════════════╣" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.AMARILLO_F + "🧑 Llegarán clientes con pedidos         " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.VERDE_F   + "⏱️  Tienes tiempo limitado para atender  " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.ROJO_F    + "❤️  Tienes 3 vidas, no las pierdas!      " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.MORADO_F  + "⭐ Gana puntos por cada cliente feliz    " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.AZUL_F    + "🎯 Completa 5 clientes por nivel         " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.CYAN_F    + "🏆 Hay 3 niveles de dificultad           " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.AMARILLO_F + "  Llegarán clientes con pedidos         " + MenuPrincipal.CYAN_F + "║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.VERDE_F   + "   Tienes tiempo limitado para atender  " + MenuPrincipal.CYAN_F +  "║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.ROJO_F    + "   Tienes 3 vidas, no las pierdas!      " + MenuPrincipal.CYAN_F +  "║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.MORADO_F  + "   Gana puntos por cada cliente feliz   " + MenuPrincipal.CYAN_F +"║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.AZUL_F    + "   Completa 5 clientes por nivel        " + MenuPrincipal.CYAN_F +"║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ║  " + MenuPrincipal.CYAN_F    + "   Hay 3 niveles de dificultad          " + MenuPrincipal.CYAN_F +"║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
 	        System.out.println();
-	        System.out.print(MenuPrincipal.AMARILLO_F + "  ¡Presiona Enter para empezar! 🚀 " + MenuPrincipal.RESET);
+	        System.out.print(MenuPrincipal.AMARILLO_F + "  ¡Presiona Enter para empezar!   " + MenuPrincipal.RESET);
 	        scanner.nextLine();
 	    }
 
@@ -167,37 +163,37 @@ public class Pedidos {
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
 	            "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
-	            "  ║   🧑‍💼  ¡NUEVO CLIENTE!  🧑‍💼               ║" + MenuPrincipal.RESET);
+	            "  ║      ¡NUEVO CLIENTE!                     ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
 	            "  ╠══════════════════════════════════════════╣" + MenuPrincipal.RESET);
 	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
-	            "  ║  👤  Cliente: %-27s║%n" + MenuPrincipal.RESET, nombre);
+	            "  ║      Cliente: %-27s║%n" + MenuPrincipal.RESET, nombre);
 	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
-	            "  ║  😊  Estado:  %-27s║%n" + MenuPrincipal.RESET, estado);
+	            "  ║      Estado:  %-27s║%n" + MenuPrincipal.RESET, estado);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
 	            "  ╠══════════════════════════════════════════╣" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
-	            "  ║  📋  PIDE:                               ║" + MenuPrincipal.RESET);
+	            "  ║    PIDE:                                 ║" + MenuPrincipal.RESET);
 
 	        for (int i = 0; i < pedidoIdx.length; i++) {
-	            System.out.printf(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA +
-	                "  ║    %s  %-36s║%n" + MenuPrincipal.RESET,
-	                emojis[pedidoIdx[i]], productos[pedidoIdx[i]]);
+	          System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + 
+	        		  "  ║      %-36s║%n" + MenuPrincipal.RESET,
+	                productos[pedidoIdx[i]]);
 	        }
 
-	        System.out.printf(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA +
-	            "  ║  ⏱️  TIEMPO: %-3d segundos                 ║%n" + MenuPrincipal.RESET, tiempo);
+	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
+	            "  ║    ? TIEMPO: %-3d segundos                ║%n" + MenuPrincipal.RESET, tiempo);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA +
 	            "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
 
 	        System.out.println();
 	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ┌──────────────────────────────────────────┐" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  │         🍽️  PRODUCTOS DISPONIBLES         │" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  │            PRODUCTOS DISPONIBLES         │" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  ├──────────────────────────────────────────┤" + MenuPrincipal.RESET);
 
 	        for (int i = 0; i < productos.length; i++) {
-	            System.out.printf(MenuPrincipal.CYAN_F + "  │  " + MenuPrincipal.BLANCO + "%2d. %s %-30s" + MenuPrincipal.CYAN_F + "│%n" + MenuPrincipal.RESET,
-	                (i + 1), emojis[i], productos[i]);
+	            System.out.printf(MenuPrincipal.CYAN_F +    "  │  " + MenuPrincipal.BLANCO + "%2d.  %-30s" + MenuPrincipal.CYAN_F +    "     │%n" + MenuPrincipal.RESET,
+	               (i + 1),  productos[i]);
 	        }
 
 	        System.out.println(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA + "  └──────────────────────────────────────────┘" + MenuPrincipal.RESET);
@@ -205,7 +201,7 @@ public class Pedidos {
 
 	        if (pedidoIdx.length == 1) {
 	            System.out.print(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA +
-	                "  👨‍🍳 ¿Qué producto entregas? (número): " + MenuPrincipal.RESET);
+	                "    ¿Qué producto entregas? (número): " + MenuPrincipal.RESET);
 	        } else {
 	            System.out.print(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA +
 	                "  👨‍🍳 ¿Qué productos entregas? (ej: 1,4): " + MenuPrincipal.RESET);
@@ -229,7 +225,7 @@ public class Pedidos {
 	                long restante = (limite - transcurrido) / 1000;
 	                if (transcurrido >= limite) {
 	                    tiempoAgotado[0] = true;
-	                    System.out.println(MenuPrincipal.ROJO_F + "\n\n  ⏰ ¡TIEMPO AGOTADO!" + MenuPrincipal.RESET);
+	                    System.out.println(MenuPrincipal.ROJO_F + "\n\n    ¡TIEMPO AGOTADO!" + MenuPrincipal.RESET);
 	                    break;
 	                }
 	                MenuPrincipal.esperar(1000);
@@ -284,20 +280,16 @@ public class Pedidos {
 	    // ══════════════════════════════════════
 	    public void mostrarHUD() {
 	        String vidasStr = "";
-	        for (int i = 0; i < vidas; i++) vidasStr += "❤️ ";
-	        for (int i = vidas; i < 3; i++) vidasStr += "🖤 ";
+	        for (int i = 0; i < vidas; i++) vidasStr += "  ";
+	        for (int i = vidas; i < 3; i++) vidasStr += "  ";
 
-	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA +
-	            "  ┌──────────────────────────────────────────┐" + MenuPrincipal.RESET);
+	        
 	        System.out.printf(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA +
-	            "  │  %s  " + MenuPrincipal.AMARILLO_F + "NIVEL: %d  " +
-	            MenuPrincipal.VERDE_F + "PUNTOS: %-6d  " +
-	            MenuPrincipal.CYAN_F + "CLIENTES: %d/%d  " +
-	            MenuPrincipal.MORADO_F + "│%n" + MenuPrincipal.RESET,
+	           "    %s  " + MenuPrincipal.AMARILLO_F + "NIVEL: %d  " +
+	           MenuPrincipal.VERDE_F + "PUNTOS: %-6d  " + MenuPrincipal.CYAN_F+"CLIENTES:%d/%d" +
+	                  MenuPrincipal.MORADO_F + "│%n" + MenuPrincipal.RESET,
 	            vidasStr, nivel, puntos, clientesAtendidos, clientesPorNivel * nivel);
-	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA +
-	            "  └──────────────────────────────────────────┘" + MenuPrincipal.RESET);
-	        System.out.println();
+	     
 	    }
 
 	    // ══════════════════════════════════════
@@ -306,29 +298,27 @@ public class Pedidos {
 	    public void mostrarExito(String nombre, int[] pedidoIdx) {
 	        MenuPrincipal.limpiarPantalla();
 	        System.out.println();
-	        System.out.println(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA + "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA + "  ║   ✅  ¡PEDIDO CORRECTO!  ✅               ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA + "  ╠══════════════════════════════════════════╣" + MenuPrincipal.RESET);
-	        System.out.printf(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA  + "  ║  😊 %s dice: ¡Muchas gracias!%-10s║%n" + MenuPrincipal.RESET, nombre, "");
-	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║  ⭐ +%d puntos ganados!%-20s║%n" + MenuPrincipal.RESET, 100 * nivel, "");
-	        System.out.println(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA + "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
+	        
+	        System.out.println(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA + "        ¡PEDIDO CORRECTO!                " + MenuPrincipal.RESET);
+	        System.out.printf(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA  + "   %s dice: ¡Muchas gracias!%-10s%n" + MenuPrincipal.RESET, nombre, "");
+	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "       +%d puntos ganados!%-20s%n" + MenuPrincipal.RESET, 100 * nivel, "");
+	       
 	    }
 
 	    public void mostrarFallo(String nombre) {
 	        MenuPrincipal.limpiarPantalla();
 	        System.out.println();
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║   ❌  ¡PEDIDO INCORRECTO!  ❌             ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ╠══════════════════════════════════════════╣" + MenuPrincipal.RESET);
-	        System.out.printf(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA   + "  ║  😡 %s se fue enojado!%-16s║%n" + MenuPrincipal.RESET, nombre, "");
-	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║  💔 Perdiste una vida! Vidas: %-11s║%n" + MenuPrincipal.RESET, vidasStr());
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
+	       
+	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "          ¡PEDIDO INCORRECTO!                 " + MenuPrincipal.RESET);
+	        System.out.printf(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA   + "          %s se fue enojado!%-16s%n" + MenuPrincipal.RESET, nombre, "");
+	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "        Perdiste una vida! Vidas: %-11s%n" + MenuPrincipal.RESET, vidasStr());
+	       
 	    }
 
 	    public String vidasStr() {
 	        String v = "";
-	        for (int i = 0; i < vidas - 1; i++) v += "❤️";
-	        for (int i = vidas - 1; i < 3; i++) v += "🖤";
+	        for (int i = 0; i < vidas - 1; i++) v += "";
+	        for (int i = vidas - 1; i < 3; i++) v += "";
 	        return v;
 	    }
 
@@ -336,13 +326,12 @@ public class Pedidos {
 	        MenuPrincipal.limpiarPantalla();
 	        System.out.println();
 	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA + "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA + "  ║   🎉  ¡NIVEL COMPLETADO!  🎉             ║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA + "  ║        ¡NIVEL COMPLETADO!                ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA + "  ╠══════════════════════════════════════════╣" + MenuPrincipal.RESET);
-	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║  ⭐ Puntos actuales: %-21d║%n" + MenuPrincipal.RESET, puntos);
-	        System.out.printf(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA     + "  ║  🚀 Siguiente nivel: %-21d║%n" + MenuPrincipal.RESET, nivel 
+	        System.out.printf(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA + "          Puntos actuales:%-21d%n" + MenuPrincipal.RESET, puntos);
+	        System.out.printf(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA     + "         Siguiente nivel:%-21d%n" + MenuPrincipal.RESET, nivel 
 	        		);
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA    + "  ║  ⚡ ¡El tiempo será menor!               ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.MORADO_F + MenuPrincipal.NEGRITA + "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA    + "         ¡El tiempo será menor!               " + MenuPrincipal.RESET);
 	        MenuPrincipal.musicaVictoria();
 	        System.out.println();
 	        System.out.print(MenuPrincipal.AMARILLO_F + "  Presiona Enter para continuar..." + MenuPrincipal.RESET);
@@ -354,13 +343,13 @@ public class Pedidos {
 	        System.out.println();
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║   🏆  ¡¡¡GANASTE!!!  🏆                  ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║   🎉 ¡Completaste los 3 niveles!  🎉     ║" + MenuPrincipal.RESET);
-	        System.out.printf(MenuPrincipal.VERDE_F + MenuPrincipal.NEGRITA     + "  ║   ⭐ Puntuacion final: %-18d║%n" + MenuPrincipal.RESET, puntos);
-	        System.out.printf(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA      + "  ║   🍔 Clientes atendidos: %-15d║%n" + MenuPrincipal.RESET, clientesAtendidos);
-	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║   👨‍🍳 ¡Eres el mejor chef de FOODIE!     ║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║         ¡¡¡GANASTE!!!                    ║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "                                             " + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "         ¡Completaste los 3 niveles!         " + MenuPrincipal.RESET);
+	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA    +"         Puntuacion final: %-18d %n" + MenuPrincipal.RESET, puntos);
+	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA     +"        Clientes atendidos: %-15d %n" + MenuPrincipal.RESET, clientesAtendidos);
+	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "                                             " + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║     ¡Eres el mejor chef de FOODIE!       ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
 	        MenuPrincipal.musicaVictoria();
@@ -376,13 +365,13 @@ public class Pedidos {
 	        System.out.println();
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ╔══════════════════════════════════════════╗" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║        💀  GAME OVER  💀                  ║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║            GAME OVER                     ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║   ¡Se te acabaron las vidas!             ║" + MenuPrincipal.RESET);
-	        System.out.printf(MenuPrincipal.AMARILLO_F + MenuPrincipal.NEGRITA + "  ║   Puntos obtenidos: %-20d║%n" + MenuPrincipal.RESET, puntos);
-	        System.out.printf(MenuPrincipal.CYAN_F + MenuPrincipal.NEGRITA     + "  ║   Llegaste al nivel: %-19d║%n" + MenuPrincipal.RESET, nivel);
+	        System.out.printf(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║   Puntos obtenidos: %-20d ║%n" + MenuPrincipal.RESET, puntos);
+	        System.out.printf(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA     + "  ║   Llegaste al nivel: %-19d ║%n" + MenuPrincipal.RESET, nivel);
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
-	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║   ¡Intenta de nuevo!  💪                 ║" + MenuPrincipal.RESET);
+	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║   ¡Intenta de nuevo!                     ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ║                                          ║" + MenuPrincipal.RESET);
 	        System.out.println(MenuPrincipal.ROJO_F + MenuPrincipal.NEGRITA + "  ╚══════════════════════════════════════════╝" + MenuPrincipal.RESET);
 	        MenuPrincipal.musicaDerrota();
